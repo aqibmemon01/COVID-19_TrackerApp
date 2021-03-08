@@ -1,0 +1,63 @@
+.app___stats{
+    display: flex;
+  }
+.header{
+  margin-bottom: 15px;
+}
+  .table {
+  margin: 0 auto;
+  max-width: 250px;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: scroll;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+::-webkit-scrollbar{
+  width: 5px;
+  color: #7a8bff !important;
+  
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #001493;
+}
+.table td{
+  padding:2px ;
+  color: black;
+  justify-content: space-between;
+}
+.table tr:nth-of-type(odd){
+  color: black;
+  background-color: #7a8bff;
+}
+.stats{
+  max-width: 300px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.lineChart{
+  max-height: 250px;
+}
+.InfoBox{
+  /* display: inline-block; */
+    width: 300px;
+}
+.Graph2 {
+  /* background-color: #29B6F6; */
+  overflow: hidden ;
+  display: inline-block;
+  vertical-align: top;
+  max-height: 400px;
+  height: 400px;
+  max-width: 350px;
+
+}
+.Graph2 > * > *{
+  padding-top: 10px;
+}

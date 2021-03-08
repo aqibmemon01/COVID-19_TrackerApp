@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+ text-align: center;
+
+}
+body{
+  background: #f3f3f3;
+}
+.App{
+  display: inline;
+  /* justify-content: space-around; */
+}
